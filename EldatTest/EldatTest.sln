@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B1CFC934-6690-439A-9491-2F580CA541E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainTest", "DomainTest\DomainTest.csproj", "{4FB7EBCC-BC4D-4DA1-91B1-C4FCBDEDB5D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autohmation", "Autohmation\Autohmation.csproj", "{E6E67FAA-0E4F-4D06-8F7C-91F2E45F8831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaTest", "AkkaTest\AkkaTest.csproj", "{21583E0A-433A-4A54-821C-1174629B3128}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainCore", "DomainCore\DomainCore.csproj", "{0B4774CC-0577-4A80-BC7E-C7BDEDF39423}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainTestCore", "DomainTestCore\DomainTestCore.csproj", "{9F950338-77B3-43BA-9552-797BE2200F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EldatTest", "EldatTest\EldatTest.csproj", "{43457824-B7EA-4255-A2D2-806CA2A49CAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1CFC934-6690-439A-9491-2F580CA541E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CFC934-6690-439A-9491-2F580CA541E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CFC934-6690-439A-9491-2F580CA541E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CFC934-6690-439A-9491-2F580CA541E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB7EBCC-BC4D-4DA1-91B1-C4FCBDEDB5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB7EBCC-BC4D-4DA1-91B1-C4FCBDEDB5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB7EBCC-BC4D-4DA1-91B1-C4FCBDEDB5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB7EBCC-BC4D-4DA1-91B1-C4FCBDEDB5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E67FAA-0E4F-4D06-8F7C-91F2E45F8831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E67FAA-0E4F-4D06-8F7C-91F2E45F8831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E67FAA-0E4F-4D06-8F7C-91F2E45F8831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E67FAA-0E4F-4D06-8F7C-91F2E45F8831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21583E0A-433A-4A54-821C-1174629B3128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21583E0A-433A-4A54-821C-1174629B3128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21583E0A-433A-4A54-821C-1174629B3128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21583E0A-433A-4A54-821C-1174629B3128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4774CC-0577-4A80-BC7E-C7BDEDF39423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4774CC-0577-4A80-BC7E-C7BDEDF39423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4774CC-0577-4A80-BC7E-C7BDEDF39423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4774CC-0577-4A80-BC7E-C7BDEDF39423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F950338-77B3-43BA-9552-797BE2200F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F950338-77B3-43BA-9552-797BE2200F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F950338-77B3-43BA-9552-797BE2200F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F950338-77B3-43BA-9552-797BE2200F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43457824-B7EA-4255-A2D2-806CA2A49CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43457824-B7EA-4255-A2D2-806CA2A49CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43457824-B7EA-4255-A2D2-806CA2A49CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43457824-B7EA-4255-A2D2-806CA2A49CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3FE3447-7345-4B99-8F96-DD9F3F6E6A33}
+	EndGlobalSection
+EndGlobal

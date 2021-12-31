@@ -1,0 +1,9 @@
+<h1>Lamps</h1>
+
+<ul>
+  <li *ngFor="let lamp of lamps" class="on">
+    <ul>
+      <li><a href="/lamps/{{lamp.name}}">{{ lamp.description }}</a></li> 
+    </ul>
+  </li>
+</ul>

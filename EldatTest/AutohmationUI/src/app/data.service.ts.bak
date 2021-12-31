@@ -1,0 +1,59 @@
+import { Injectable } from '@angular/core';
+import { HttpClient,HttpResponse } from '@angular/common/http';
+import { Observable } from '../../node_modules/rxjs';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class DataService {
+
+  constructor(private http: HttpClient) { }
+
+  getLamps() : Observable<Lamp[]>
+  {
+    return this.http.get<Lamp[]>('http://localhost:64420/api/lamps');
+    //return this.http.get('https://jsonplaceholder.typicode.com/users');
+    
+  }
+
+  
+}
+
+export class Lamp {
+  
+  private _name : string;
+  public get name() : string {
+    return this._name;
+  }
+  public set name(v : string) {
+    this._name = v;
+  }
+  
+  
+  private _description : string;
+  public get description() : string {
+    return this._description;
+  }
+  public set description(v : string) {
+    this._description = v;
+  }
+  
+  private _state : number;
+  public get state() : number {
+    return this._state;
+  }
+  public set state(v : number) {
+    this._state = v;
+  }
+  
+  
+  private _level : number;
+  public get level() : number {
+    return this._level;
+  }
+  public set level(v : number) {
+    this._level = v;
+  }
+  
+}
+
